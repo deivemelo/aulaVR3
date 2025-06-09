@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <title>Hello world!</title>
+  </head>
+
+  <body>
+    <a-scene stats="false" vr-mode-ui="false">
+      <a-assets>
+        <video id="video1" preload="auto" autoplay loop src="media/ferrarii.mp4"></video>
+      </a-assets>
+      <a-video id="vd1" src="#video1"  position="0 1.6 -4" rotate="0 45 0"width="5" heigth="6"></a-video>
+      <a-camera position="0 1.6 0"></a-camera>
+      <a-cursor></a-cursor>
+              
+      <a-camera position="0 1.6 0"></a-camera>
+    </a-scene>
+  </body>
+</html>
